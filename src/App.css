@@ -2,8 +2,22 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: 'Ubuntu', sans-serif;
+  background-image: url('https://th.bing.com/th/id/OIP.QBhhgZVdo5A2fTsi-w77RgHaEK?w=321&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+  background-repeat: no-repeat;
+  background-size: 1500px;
 }
-
+.text{
+  size: 40%;
+  color:#460a0ba0
+}
+.box1{
+  height: 500px;
+  width: 600px;
+  background-color: #331d20bb;
+  opacity: 10px;
+  margin-left: -100px;
+  border-radius: 1%;
+}
 .container {
   display: flex;
   flex-flow: row wrap;
@@ -27,10 +41,14 @@ body {
 .login a {
   text-align: center;
 }
-
+.table{
+  border-color: black;
+  border-style:calc();
+  background-color: #c63642ca;
+}
 input[type='text'] {
   background-color: #e6e6e6;
-  color: #827ffe;
+  color: #420110e7;
   font-size: 16px;
   margin-bottom: 20px;
   border: none;
@@ -38,19 +56,19 @@ input[type='text'] {
   padding: 20px 30px;
 }
 
-input[type='password'] {
+input[type='number'] {
   background-color: #e6e6e6;
   padding: 20px 30px;
-  color: #827ffe;
+  color: #460810e2;
   font-size: 16px;
   margin-bottom: 20px;
   border: none;
   width: 85%;
 }
 
-input[type='submit'] {
+button[type='submit'] {
   padding: 15px 0px;
-  background-color: #827ffe;
+  background-color: #830e2b;
   color: #fff;
   font-size: 20px;
   margin-top: 10px;
@@ -58,6 +76,18 @@ input[type='submit'] {
   border: none;
   width: 100%;
 }
+
+input[type='submit'] {
+  padding: 15px 0px;
+  background-color: #830e2b;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
 
 .check {
   font-size: 16px;
